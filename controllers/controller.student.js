@@ -9,6 +9,12 @@ exports.create = (request, response) => {
         status: "success",
         message: "Creating all the users here..."
     })
+
+    const newStudent = new Student(request.body);
+    newStudent.save((err, data) => {
+        if (err) response.send("Error Occured");
+        response.json(data)
+    });
 }
 
 exports.update = (request, response) => {

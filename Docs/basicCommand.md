@@ -14,3 +14,9 @@
         -Compiles Automatically.
         -Changes performed are automatically compiled.
 
+5. npm install cors
+        -install cors that are used for sharing the resources between the websites
+
+6. npm install body-parser
+        -install body-parser that are used to convert the shared files into json as mongoose use the files in json.
+        
