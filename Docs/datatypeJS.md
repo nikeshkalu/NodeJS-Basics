@@ -9,12 +9,12 @@ const:limited scope ;used for constant value
 
 Datatype:
 
-1.Parametric
+1.Primitive
 if (statement)
 then 
 (statement)
 
-2.Non Parametric
+2.Non Primitive
 Eg:JSON 
 var obj1 = {
     name:'A',
